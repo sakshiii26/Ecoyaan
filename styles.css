@@ -1,0 +1,127 @@
+/* /* 
+
+/* Reset CSS */
+* {
+  /* background-color: #d2dfd2; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #95f195;
+}
+
+/* Global Styles */
+body {
+  font-family: "Arial", sans-serif;
+  /* background-color: #f0f0f0; */
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #95f195;
+  /* display: inline; */
+  color: rgb(13, 11, 11);
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  /* border: 1px solid black; */
+  display: inline;
+  /* display: grid; */
+  /* align-content: space-evenly; */
+  font-size: 2.5rem;
+  /* background-color: #f5faf5; */
+  background-color: #95f195;
+}
+header h2 {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  /* color: red; */
+  /* display: grid; */
+  margin-right: 20px;
+  color: black;
+}
+
+nav ul li a {
+  color: rgb(44, 6, 6);
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.btn {
+  font-size: 1rem;
+}
+
+.services h2 {
+  font-size: 2rem;
+}
+
+foote
+ 
+ /* about-image img{
+ 
+ max-width:100%;
+ 
+ } */
+ .about-image img {
+  max-width: 100%;
+
+  height: auto;
+
+  display: block;
+
+  transition: 0.5s ease;
+}
+
+.images::after {
+  /* display: flex;
+   */
+  content: "";
+  display: table;
+  clear: both;
+}
+.image {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.footer.p {
+  text-align: center;
+}
+#footer {
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
+}
